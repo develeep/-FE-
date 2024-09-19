@@ -214,7 +214,7 @@ const API_URL = 'https://pokemon-api-ecru-eta.vercel.app/main';
 - 4-3 DOM API-2
 - 4-4 여러가지 폼 조작
 
-### 과제제
+### 과제
 #### 미션1. DOM API
 
 index.js 파일을 생성하고, 파일의 내부에
