@@ -17,6 +17,21 @@
 - **커뮤니티 참여**
     - **한입 FE 커뮤니티(Discord)** 에서 함께합니다!
     - 신청자 분들께 **이메일**로 참여 링크를 발송해 드립니다.
+ 
+## 일자 별 바로가기
+- [Day 1](https://github.com/develeep/-FE-/blob/master/README.md#day-1)
+- [Day 2](https://github.com/develeep/-FE-/blob/master/README.md#day-2)
+- [Day 3](https://github.com/develeep/-FE-/blob/master/README.md#day-3)
+- [Day 4](https://github.com/develeep/-FE-/blob/master/README.md#day-4)
+- [Day 5](https://github.com/develeep/-FE-/blob/master/README.md#day-5)
+- [Day 6](https://github.com/develeep/-FE-/blob/master/README.md#day-6)
+- [Day 7](https://github.com/develeep/-FE-/blob/master/README.md#day-7)
+- [Day 8](https://github.com/develeep/-FE-/blob/master/README.md#day-8)
+
+
+
+
+
 ## Day 1
 ### 수강 강의
 - 1-1 강의 소개
