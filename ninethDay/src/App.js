@@ -1,7 +1,47 @@
-import TabBar from './components/TabBar';
-import Content from './components/Content';
+import TabBar from './components/TabBar.js';
+import Content from './components/Content.js';
+import { getData } from './components/api.js';
 
 export default function App(app) {
-  const tabBar = new TabBar();
-  const content = new Content();
+  this.state = {
+    currentTab: 'all',
+    photos: [],
+  };
+
+  const tabBar = new TabBar({
+    app,
+    initialState: '',
+    onClick: async (name) => {
+      this.setState({
+        ...this.state,
+        currentTab: name,
+        photos: await getData(name === 'all' ? '' : name),
+      });
+    },
+  });
+
+  const content = new Content({
+    app,
+    initialState: [],
+  });
+
+  this.setState = (newState) => {
+    this.state = newState;
+    tabBar.setState(this.state.currentTab);
+    content.setState(this.state.photos);
+    console.log(this.state);
+  };
+
+  const init = async () => {
+    try {
+      const initialPhotos = await getData();
+      this.setState({
+        ...this.state,
+        photos: initialPhotos,
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+  init();
 }
