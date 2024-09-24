@@ -29,6 +29,7 @@
 - [Day 8](https://github.com/develeep/-FE-/blob/master/README.md#day-8)
 - [Day 9](https://github.com/develeep/-FE-/blob/master/README.md#day-9)
 - [Day 10](https://github.com/develeep/-FE-/blob/master/README.md#day-10)
+- [Day 11](https://github.com/develeep/-FE-/blob/master/README.md#day-11)
 
 
 
@@ -358,3 +359,22 @@ obj.arrowFunction(); // 출력: undefined (이유를 설명해보세요)
 앞으로 개발 할 프로젝트를 '블로그' 혹은 'github'에 기록해보세요 👍👍
 
 작성 후 댓글로 공유해주시면 더 좋아요! 🙂
+
+
+## Day 11
+### 수강강의
+- 8-4 MPA와 SPA
+- 8-5 SPA와 라우팅
+- 8-6 동물 앨범 만들기-3
+- 8-7 node.js와 express.js
+### 과제
+#### 미션1. node.js와 express.js
+
+server 폴더 내부의 server.js 파일에 알맞은 코드를 작성하세요.
+
+🎯 제출 방법
+
+server.js에 작성한 코드를 캡쳐해 울려주시거나,
+
+프로젝트 코드를 github에 보관하고 계신 분들은 github 주소를 올려주세요 :)
+
