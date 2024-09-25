@@ -30,7 +30,7 @@
 - [Day 9](https://github.com/develeep/-FE-/blob/master/README.md#day-9)
 - [Day 10](https://github.com/develeep/-FE-/blob/master/README.md#day-10)
 - [Day 11](https://github.com/develeep/-FE-/blob/master/README.md#day-11)
-
+- [Day 12](https://github.com/develeep/-FE-/blob/master/README.md#day-12)
 
 
 
