@@ -41,7 +41,6 @@ export default function PokemonList({
     this.$target.innerHTML = this.template();
     document.querySelectorAll('.img-wrapper').forEach((elm) => {
       elm.addEventListener('click', () => {
-        console.log(elm.id);
         this.handleItemClick(elm.id);
       });
     });
