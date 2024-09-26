@@ -7,7 +7,6 @@ export default function CityList({ app, initialState, handleLoadMore }) {
   app.append(this.target);
 
   this.template = () => {
-    console.log(this.state);
     let temp = `<div class="city-items-container">`;
     if (this.state) {
       this.state.cities.forEach((city) => {
