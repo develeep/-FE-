@@ -17,3 +17,15 @@ export const request = async (startIndex, region, sortBy, searchWord) => {
     console.log(err);
   }
 };
+
+export const detailRequest = async (id) => {
+  try {
+    const res = await fetch(`${API_URL}/city/${id}`);
+    if (res) {
+      const data = res.json();
+      return data;
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
